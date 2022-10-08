@@ -1,0 +1,178 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: yellow;
+}
+
+.head{
+    text-align: center;
+}
+
+.master{
+    background-image: url(./full-stack.jpg );
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    border: 2px solid aqua;
+    border-radius: 14px;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 2px 1px black;
+    
+}
+h1{
+    position: relative;
+    top: -20px;
+}
+button{
+    position: relative;
+    top: 100px;
+}
+ #btn{
+    text-decoration: none;
+}
+#btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 2px aqua;
+    background-color: antiquewhite;
+}
+/* #logo{
+    height: 50px;
+    width: 50px;
+    float: left;
+} */
+
+header{
+    /* border: 2px solid springgreen;
+    border-radius: 20px;
+    background-color: darkcyan; */
+    padding: 0px 20px;
+}
+
+.display{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: auto repeat(4, 100px);
+    grid-template-rows: 100px;
+}
+
+.apple{
+    height: 60px;
+    width: 60px;
+}
+.apple:hover{
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    box-shadow:  2px 20px 40px black;
+    border-radius: 50px;
+    
+}
+.button{
+    align-self: center;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+.button:hover{
+    /* border: 5px solid black;
+    border-radius: 12px; */
+    font-size: large;
+    font-weight: bolder;
+}
+
+.same{
+    border: 5px groove burlywood;
+    border-radius: 4px;
+}
+
+
+
+
+
+.btn{
+    background-color: beige;
+    border-radius: 12px;
+    color: blue;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: -4px 4px 22px aqua;
+}
+
+.cards{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+@media screen and (max-width: 500px) {
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card{
+        border-radius: 12px;
+        align-self: center;
+        /* height: 200px; */
+        width: 300px;
+        border: 2px solid white;
+        color: whitesmoke;
+        background-color: black;
+        text-align: center;
+        text-shadow: 1px 1px 10px aqua;
+    }
+    .display{
+        display: grid;
+        grid-gap: 5px;
+        grid-template-rows: auto repeat(4, 100px);
+        grid-template-columns: 100px;
+        justify-content: center;
+    }
+    .PB-button{
+        position: relative;
+        right: 10%;
+    }
+}
+.card{
+    border-radius: 12px;
+    /* height: 200px; */
+    width: 200px;
+    border: 2px solid white;
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    text-shadow: 1px 1px 10px aqua;
+}
+.card:hover{
+    width: 220px;
+    height: 150px;
+    cursor: pointer;
+    box-shadow: 4px 4px 8px black;
+    color: greenyellow;
+}
+
+.PB-button{
+    margin-left: calc((100vw - 30px)/2);
+}
+
+h2{
+    height: 30px;
+    width: 120px;
+    border-radius: 12px;
+    color: aqua;
+    background-color: black;
+    text-align: center;
+    
+}
+#bt{
+    text-decoration: none;
+}
+h2:hover{
+    height: 40px;
+    width: 190px;
+    cursor: pointer;
+    font-size: xx-large;
+}
+
+
+
